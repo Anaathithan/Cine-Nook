@@ -1,6 +1,6 @@
 # 🎬 Cine-Nook
 
-### 🔗 **[👉 Click Here to View the Live Demo!](https://your-vercel-link.vercel.app)** 🚀
+### 🔗 **[👉 Click Here to View the Live Demo!](https://cine-nook.vercel.app/)** 🚀
 
 Cine-Nook is a responsive movie search and discovery web application. This project demonstrates how to connect a modern **React 19** frontend with **Appwrite's backend-as-a-service** database, while optimizing API requests for real-world performance.
 
