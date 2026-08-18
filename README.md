@@ -1,16 +1,14 @@
-# React + Vite
+# 🎬 Cine-Nook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🔗 **[👉 Click Here to View the Live Demo!](https://your-vercel-link.vercel.app)** 🚀
 
-Currently, two official plugins are available:
+Cine-Nook is a responsive movie search and discovery web application. This project demonstrates how to connect a modern **React 19** frontend with **Appwrite's backend-as-a-service** database, while optimizing API requests for real-world performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 💡 Key Engineering Highlights (For Recruiters)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **API & Database Integration:** Fetches real-time movie listings from the TMDB API and dynamically logs user search traffic into an **Appwrite** database table.
+*   **Performance Optimization (Debouncing):** Uses a custom debounced search state. Instead of fetching data on every keystroke (which causes API throttling), it waits for the user to finish typing (`500ms`), saving network requests.
+*   **Modern CSS Architecture:** Built using the utility-first **Tailwind CSS v4** engine for clean, maintainable, and responsive layouts.
+*   **Clean Architecture:** Built on **React 19 + Vite** for fast performance, using clean component breakdown (`Search`, `MovieCard`, `Spinner`) and reusable modular services (`appwrite.js`).
